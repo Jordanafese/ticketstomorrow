@@ -97,8 +97,8 @@ div[for="head"] {
 div[for="head_info"] {
     background-color: #026cdf;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4px;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
     padding: 15px 10px;
 }
 
@@ -112,7 +112,7 @@ div[for="head_info"] > div {
 
 div[for="head_info"] > div div:nth-child(1) {
     font-size: 14px;
-    /* text-align: left;
+    /*text-align: center;
     padding-left: 25px; */
 }
 
@@ -120,13 +120,14 @@ div[for="head_info"] > div div:nth-child(2) {
     font-size: 17px;
     font-family: averta_semibold, sans-serif;
     font-weight: 700;
-    /* text-align: left;
+    /*text-align: center;
     padding-left: 10px; */
 }
 
 div[for="content"] {
     background-color: #f2f2f2;
     position: relative;
+    height: 182px;
     min-height: 150px;
 }
 

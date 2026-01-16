@@ -75,7 +75,7 @@ main {
     margin-bottom: 0px;
 }
 div[for = "menu"]{
-    background-color: #155fc8;
+    background-color: #1f262d;
     color: rgb(237, 235, 235);
     width: 100%;
     height: 48px;
@@ -180,6 +180,11 @@ div[for="timer"] a {
     font-weight: 400;
 }
 
+#vt > a {
+	color: black;
+	font-weight: 200;
+	font-size: 14px;
+}
 div[for="footer"] img {
     width: 100%;
     border-bottom-left-radius: 12px;

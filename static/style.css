@@ -179,7 +179,20 @@ div[for="timer"] a {
     font-family: averta_semibold, sans-serif;
     font-weight: 400;
 }
+#ViewTicket {
+    height:29px;
+    background-color: #1f262d;
+    width: 260px;
+    color: white;
+    font-family: averta_semibold, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 
+}
 #vt > a {
 	color: black;
 	font-weight: 200;
